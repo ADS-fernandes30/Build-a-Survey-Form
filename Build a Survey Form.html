@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<h1 id="title">Survey Form</h1>
+<div id="form-outer">
+<p id="description"> Let us know how we can improve FreeCodeCamp</p>
+
+<p>
+  <form id="survey-form">
+ 
+  <div>
+    <label id="name-label" for="name">*Name:</label>
+  <input name="name" id="name" type="text" placeholder="Enter your name" required>                                     </div>
+   
+<div>                                       
+   <label id="email-label" for="email">*Email:</label>
+  <input name="email" id="email" type="email" placeholder="Enter your email" required>  
+</div>
+  
+   <div>
+  <label id="number-label" for="age">*Age:</label>
+  <input name="number" min="0" max="99" id="number" type="number" placeholder="Age" required>
+  </div> 
+  
+  <div>
+    <label for="Select an option">Which option best describes your current role?</label>
+    <select name="Select an option" id="dropdown">
+      <option value="option">Student</option>
+      <option value="option">Full Time Job</option>  
+      <option value="option">Full Time Learner</option>  
+      <option value="option">Prefer not to say</option>  
+      <option value="option">Other</option>  
+      </select name="Select an option">
+   </div>
+     
+    <label for="recommendation">*How likely is that you would recommend freeCodeCamp to a friend?</label>
+  
+      <div>
+      <label for="Definitely">Definitely</label>
+    <input id="Definitely" name="name" type="radio" value="Definitely"> 
+      
+    <div/>
+      <div>
+      <label for="Maybe">Maybe</label>
+    <input id="Maybe" name="name" type="radio" value="maybe"> 
+      </div>
+    <div>
+      <label for="Not sure">Not sure</label>
+    <input id="Not sure" name="name" type="radio" value="not sure">
+  </div>
+        
+          <div>
+    <label for="preference">What do you like most in FCC:</label>
+    <select name="preference">
+      <option value="option">Select an option</option>
+      <option value="option">Challenges</option>
+      <option value="option">Projects</option>  
+      <option value="option">Community</option>  
+      <option value="option">Open source</option>  
+      </select name="Select an option">
+   </div>
+    
+  <div>
+    <label for="suggestions">Things that should be improved in the future <div>
+      (Check all that apply):</label> 
+      <div><input id="suggestions" name="suggestions" type="checkbox"
+      <option value="Front-end Projects">Front-end Projects</option></input>
+        <div>
+      <input id="suggestions" name="suggestions" type="checkbox"
+       <option value="Back-end Projects">Back-end Projects</option></input>
+    </div>
+  <input id="suggestions" name="suggestions" type="checkbox"
+       <option value="Data Visualization">Data Visualization</option></input>
+    </div>
+  <input id="suggestions" name="suggestions" type="checkbox"
+       <option value="Challenges">Challenges</option></input>
+    </div>
+  <input id="suggestions" name="suggestions" type="checkbox"
+       <option value="Open Source Community">Open Source Community</option></input>
+    </div>
+  <input id="suggestions" name="suggestions" type="checkbox"
+       <option value="Gitter help rooms">Gitter help rooms</option></input>
+    </div>
+  <input id="suggestions" name="suggestions" type="checkbox"
+       <option value="Videos">Videos</option></input>
+    </div>
+  <div><input id="suggestions" name="suggestions" type="checkbox"
+       <option value="City Meetups">City Meetups</option></input>
+    </div>
+  <div><input id="suggestions" name="suggestions" type="checkbox"
+       <option value="Wiki">Wiki</option></input>
+    </div> 
+     <div><input id="suggestions" name="suggestions" type="checkbox"
+       <option value="Forum">Forum</option></input>
+     <div><input id="suggestions" name="suggestions" type="checkbox"
+       <option value="Additional Courses">Additional Courses</option></input>
+    </div> 
+  <div class="labels">
+        <label for="comments">Any Comments or Suggestions?</label>
+      </div>     
+<div class="rightTab">
+        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
+ </div>
+   
+   <button id="submit" type="submit">Submit</button>
+  
+</form id="survey-form">
+  </div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
